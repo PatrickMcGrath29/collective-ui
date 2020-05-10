@@ -6,7 +6,9 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <main>
       <Header />
-      <Component {...pageProps} />
+      <div class="container">
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </main>
   )
