@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import defaultTemplate from '~/templates/default'
 
 class FoundationSnippet extends Component {
   render() {
@@ -61,9 +60,7 @@ class FoundationListing extends Component {
 }
 
 const Home = () => {
-  return defaultTemplate(() => {
-    return <FoundationListing />
-  })
+  return <FoundationListing />
 }
 
 export default Home
